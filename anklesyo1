@@ -235,7 +235,7 @@ end
 
 local function join() -- join teleporter
 local args = {
-    [1] = "_lobbytemplategreen6"
+    [1] = "_lobbytemplategreen7"
 }
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.request_join_lobby:InvokeServer(unpack(args))
